@@ -45,7 +45,7 @@ AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 #------------ᴍᴏɴɢᴏ-ᴅʙ ɪɴғᴏʀᴍᴀᴛᴏɪɴ-----------#
 
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://giri9057:giri9057@cluster0.zflhm.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "ROSEAUTOFILTER")
+DATABASE_NAME = environ.get('DATABASE_NAME', "roseautofilter")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 ########------ʟᴏɢɪɴ-ᴄʜᴀɴɴᴇʟ-----#########
