@@ -14,9 +14,9 @@ def is_enabled(value, default):
 #--------------ʙᴏᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ----------#
 
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '10261086'))
-API_HASH = environ.get('API_HASH', '9195dc0591fbdb22b5711bcd1f437dab')
-BOT_TOKEN = environ.get('BOT_TOKEN', '5756585201:AAHkzocwnjzuJOGSf2pYq364quL0MYrlCuM')
+API_ID = int(environ.get('API_ID', '13687927'))
+API_HASH = environ.get('API_HASH', '469e3f62b54f83f9839216aefab5136f')
+BOT_TOKEN = environ.get('BOT_TOKEN', '6180535160:AAGu1FahR2tqFxeQLFWkVqrYCsgj1PwVsfM')
 
 #---------------ᴀʟʟ ᴘɪᴄs---------------#
 
@@ -33,8 +33,8 @@ MELCOW_IMG = environ.get('MELCOW_IMG',"https://te.legra.ph/file/35610b78fd5d031c
 
 #------------ᴀᴅᴍɪɴs,ᴄʜᴀɴɴᴇʟ & ᴜsᴇʀs-----------#
 
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1426588906').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001878854070').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1426588906 1892306299').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001749649685').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_channel = environ.get('AUTH_CHANNEL')
@@ -44,13 +44,13 @@ AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 #------------ᴍᴏɴɢᴏ-ᴅʙ ɪɴғᴏʀᴍᴀᴛᴏɪɴ-----------#
 
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://flims:flims@cluster0.vaa4txt.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "flims")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://girirajmeena300:girirajmeena300@cluster1.0b7r0kv.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "girirajmeena300")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 ########------ʟᴏɢɪɴ-ᴄʜᴀɴɴᴇʟ-----#########
 
-login_channel = environ.get('LOGIN_CHANNEL', '-1001791301136')
+login_channel = environ.get('LOGIN_CHANNEL', '-1001970743839')
 LOGIN_CHANNEL = int(login_channel) if login_channel and id_pattern.search(login_channel) else None
 
 # Set to False inside the bracket if you don't want to use Request Channel else set it to Channel ID
@@ -60,7 +60,7 @@ JOIN_REQS_DB = environ.get("JOIN_REQS_DB", DATABASE_URI)
 
      #-------------------ᴏᴛʜᴇʀs----------------#
 
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001606248152'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001797791175'))
 MSG_ALRT = environ.get('MSG_ALRT', '𝒉𝒔-𝒃𝒐𝒕...☄️')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
@@ -91,12 +91,12 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 ##---------------ᴇxᴛᴇʀ ғᴇᴀᴛᴜʀᴇs-----------------##
 
            # ᴅᴏᴡɴʟᴏᴀᴅ ᴛᴜᴛᴏʀɪᴀʟ ʙᴜᴛᴛᴏɴ #
-HOW_TO_DOWNLOAD =  environ.get('HOW_TO_DOWNLOAD', 'https://t.me/linkdownlos/2')
+HOW_TO_DOWNLOAD =  environ.get('HOW_TO_DOWNLOAD', 'https://t.me/Sharath_Links/13')
 FILE_REQ_CHANNEL = int(environ.get('FILE_REQ_CHANNEL', LOG_CHANNEL))
      
                # ᴜʀʟ sʜᴏʀᴛ-ʟɪɴᴋ #
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shorturllink.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', '902284efd5e05828f51770d84f5ba26a6abf7751')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'omegalinks.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', '64d0231e85bf77018c452d58eab769a98f81626b')
 
       # ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇ ғᴏʀ ɢʀᴏᴜᴘ ᴏɴʟʏ (sᴇʟғ ᴅᴇʟᴇᴛᴇ) #
 SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 300))
