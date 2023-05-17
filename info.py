@@ -91,7 +91,7 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 ##---------------ᴇxᴛᴇʀ ғᴇᴀᴛᴜʀᴇs-----------------##
 
            # ᴅᴏᴡɴʟᴏᴀᴅ ᴛᴜᴛᴏʀɪᴀʟ ʙᴜᴛᴛᴏɴ #
-HOW_TO_DOWNLOAD =  environ.get('HOW_TO_DOWNLOAD', 'https://t.me/Sharath_Links/13')
+HOW_TO_DOWNLOAD =  environ.get('HOW_TO_DOWNLOAD', 'https://t.me/Sharath_Links/12')
 FILE_REQ_CHANNEL = int(environ.get('FILE_REQ_CHANNEL', LOG_CHANNEL))
      
                # ᴜʀʟ sʜᴏʀᴛ-ʟɪɴᴋ #
