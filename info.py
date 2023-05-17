@@ -33,7 +33,7 @@ MELCOW_IMG = environ.get('MELCOW_IMG',"https://te.legra.ph/file/35610b78fd5d031c
 
 #------------ᴀᴅᴍɪɴs,ᴄʜᴀɴɴᴇʟ & ᴜsᴇʀs-----------#
 
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1426588906 1892306299').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1892306299').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001749649685').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
@@ -45,7 +45,7 @@ AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 #------------ᴍᴏɴɢᴏ-ᴅʙ ɪɴғᴏʀᴍᴀᴛᴏɪɴ-----------#
 
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://giri9057:giri9057@cluster0.zflhm.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Filterautobot")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Hsbot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 ########------ʟᴏɢɪɴ-ᴄʜᴀɴɴᴇʟ-----#########
