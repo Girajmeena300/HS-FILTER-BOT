@@ -235,7 +235,7 @@ class script(object):
 👩🏻‍💻 ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ : {message.from_user.mention}</b>"""
 
     CAPTION = """
-{file_name}
+{file_caption}
     
 ───────────────────────
 Join Our Channel : @mkvCinemas3
