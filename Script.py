@@ -9,9 +9,7 @@ class script(object):
 
     FEATURES_TXT = """<b>ʜᴇʏ {}
 
-<code>ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..</code>
-
-🦋ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href=https://t.me/Hari_OP>ʜᴀʀɪ ᠰ ᴛɢ​</a> </b>"""
+<code>ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..</code></b>"""
 
     ABOUT_TXT = """<b>
 ╭────[ ᴀʙᴏᴜᴛ ᴍᴇ ]────⍟
@@ -236,7 +234,12 @@ class script(object):
 
 👩🏻‍💻 ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ : {message.from_user.mention}</b>"""
 
-    CAPTION = """<b>ɴᴀᴍᴇ : {file_name}\n\nꜱɪᴢᴇ : {file_size}\nᴊᴏɪɴ ɴᴏᴡ :<a href=https://t.me/mkvCinemas3>ʜɪɴᴅɪ ᴍᴏᴠɪᴇꜱ 𝟸.𝟶</a></b>"""
+    CAPTION = """
+{file_name}
+    
+───────────────────────
+Join Our Channel : @mkvCinemas3
+───────────────────────"""
 
     OWNER_INFO = """
 <b> ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ 
