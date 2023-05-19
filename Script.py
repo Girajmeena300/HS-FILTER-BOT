@@ -3,17 +3,9 @@ class script(object):
     START_TXT = """<b>ʜᴇʏ {} 
 
 ɪ ᴀᴍ ᴀ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏꜰɪʟᴛᴇʀ + ᴍᴀɴᴜᴀʟꜰɪʟᴛᴇʀ + ꜰɪʟᴇsᴛᴏʀᴇ ʙᴏᴛ.
-ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɪ ᴡɪʟʟ ɢɪᴠᴇ ᴍᴏᴠɪᴇs ᴏʀ sᴇʀɪᴇs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘᴍ !!
+ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɪ ᴡɪʟʟ ɢɪᴠᴇ ᴍᴏᴠɪᴇs ᴏʀ sᴇʀɪᴇs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘᴍ !!</b>"""
 
-ɪᴛ ɪs ᴇᴀsʏ ᴛᴏ ᴜsᴇ ᴍᴇ, ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴍᴀᴋᴇ ᴍᴇ ᴀs ᴀᴅᴍɪɴ
-
-🌿ᴍᴀɴᴛᴀɪɴᴇᴅ ʙʏ : <a href=https://t.me/Hari_OP>ʜᴀʀɪ ᠰ ᴛɢ​</a> </b>"""
-
-    HELP_TXT = """<b>ʜᴇʏ {}
-
-ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ʜᴇʟᴩ ꜰᴏʀ ᴍʏ ᴄᴏᴍᴍᴀɴᴅꜱ.
-
-ᴍʏ ᴏᴡɴᴇʀ - <a href=https://t.me/Hari_OP>ʜᴀʀɪ ᠰ ᴛɢ​</a></b>"""
+    HELP_TXT = """<b>ʜᴇʏ {}ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ʜᴇʟᴩ ꜰᴏʀ ᴍʏ ᴄᴏᴍᴍᴀɴᴅꜱ.</b>"""
 
     FEATURES_TXT = """<b>ʜᴇʏ {}
 
@@ -22,13 +14,18 @@ class script(object):
 🦋ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href=https://t.me/Hari_OP>ʜᴀʀɪ ᠰ ᴛɢ​</a> </b>"""
 
     ABOUT_TXT = """<b>
-🤖 ᴍʏ ɴᴀᴍᴇ : {}
-👨‍💻 ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/Hari_OP'>ʜᴀʀɪ ᠰ ᴛɢ​</a>
-📚 ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a>
-📝 ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a>
-♻️ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a>
-📡 ʜᴏsᴛᴇᴅ ᴏɴ  :  <a href='https://t.me/Hs_Botz/11'>ꜰʀᴇᴇ sᴇʀᴠᴇʀ</a>
-🥶 ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.1 [sᴛᴀʙʟᴇ​]</b>"""
+╭────[ ᴀʙᴏᴜᴛ ᴍᴇ ]────⍟
+│
+├⍟ ᴍʏ ɴᴀᴍᴇ : <a href='http://t.me/autofilter4bot'>ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ʙᴏᴛ</a>
+├⍟ ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/Girirajmeena300'>ɢɪʀɪʀᴀᴊ ᴍᴇᴇɴᴀ</a>
+├⍟ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a>
+├⍟ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a>
+├⍟ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a>
+├⍟ ʜᴏsᴛᴇᴅ ᴏɴ  :  <a href='https://t.me/Hs_Botz/11'>ꜰʀᴇᴇ sᴇʀᴠᴇʀ</a>
+├⍟ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/Hari_OP'>ʜᴀʀɪ ᠰ ᴛɢ​</a>
+├⍟ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.1 [sᴛᴀʙʟᴇ]
+│
+╰────[ ʜs-ʙᴏᴛ]────⍟</b>"""
 
     YT_TXT = """<b>🦋 ᴄʜᴀɴɴᴇʟs & ɢʀᴏᴜᴘs ᴍᴏᴅᴜʟᴇ 🦋
 
@@ -216,12 +213,6 @@ class script(object):
 • /delg - <code>ᴛᴏ ᴅᴇʟᴇᴛᴇ ᴀ sᴘᴇᴄɪғɪᴄ ɢʟᴏʙᴀʟ ғɪʟᴛᴇʀ</code>"""
     
     STATUS_TXT = """<b>
-╭━━━╮╭━━━━╮╭━━━╮╭━━━━╮╭━━━╮
-┃╭━╮┃┃╭╮╭╮┃┃╭━╮┃┃╭╮╭╮┃┃╭━╮┃
-┃╰━━╮╰╯┃┃╰╯┃┃╱┃┃╰╯┃┃╰╯┃╰━━╮
-╰━━╮┃╱╱┃┃╱╱┃╰━╯┃╱╱┃┃╱╱╰━━╮┃
-┃╰━╯┃╱╱┃┃╱╱┃╭━╮┃╱╱┃┃╱╱┃╰━╯┃
-╰━━━╯╱╱╰╯╱╱╰╯╱╰╯╱╱╰╯╱╱╰━━━╯
 📑 ғɪʟᴇs sᴀᴠᴇᴅ: <code>{}</code>
 👩🏻‍💻 ᴜsᴇʀs: <code>{}</code>
 👥 ɢʀᴏᴜᴘs: <code>{}</code>
@@ -237,33 +228,7 @@ class script(object):
 ɪᴅ - <code>{}</code>
 ɴᴀᴍᴇ - {} </b>"""
    
-    SUPPORTCHANNEL_TXT = """<b>🎯✨ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ꜰʟɪᴍꜱ ʜᴅ ᴏꜰꜰɪᴄɪᴀʟ❣
-
-⚡️🍬ᴊᴏɪɴ ᴏᴜʀ ᴍᴏᴠɪᴇꜱ ᴄʜᴀɴɴᴇʟꜱ 🦋✨
-
-
-<a href=https://t.me/Flims_hd_official>🔰✥ ▷ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ◁</a>
-
-<a href=https://t.me/HB_linkZzz>🔰✥ ▷ ꜰʟɪᴍꜱ ʜᴅ ᴏꜰꜰɪᴄɪᴀʟ ◁</a>
-
-<a href=https://t.me/+h08jyW2A-6wyNDRl>🔰✥ ▷ ꜰʟɪᴍꜱ ʜᴅ ᴏꜰꜰɪᴄɪᴀʟ ꜰɪʟᴇ 1 ◁</a>
-
-<a href=https://t.me/+nPJXplPHGohjNjhl>🔰✥ ▷ ꜰʟɪᴍꜱ ʜᴅ ᴏꜰꜰɪᴄɪᴀʟ ꜰɪʟᴇ 2 ◁</a>
-
-<a href=https://t.me/+AOla301vAn1jMGI1>🔰✥ ▷ ꜰʟɪᴍꜱ ʜᴅ ᴏꜰꜰɪᴄɪᴀʟ ꜰɪʟᴇ 3 ◁</a>
-
-<a href=https://t.me/+Neg4je0R1Q81YzRl>🔰✥ ▷ ᴍᴀʀᴠᴇʟ ᴍᴏᴠɪᴇꜱ ᴄᴏʟʟᴇᴄᴛɪᴏɴ ◁</a>
-
-<a href=https://t.me/tamilbubbed>🔰✥ ▷ ᴛᴀᴍɪʟ ᴅᴜʙʙᴇᴅ ᴍᴏᴠɪᴇ ◁</a>
-
-<a href=https://t.me/FLIMS4kHD>🔰✥ ▷ ᴛᴀᴍɪʟ 𝟦ᴋ & 𝟣𝟢𝟪𝟢Ꭾ ꜰʟɪᴍꜱ ◁</a>
-
-    
-<a href=https://t.me/Flims_hd_official/467>🔰✥ ▷ ᴍᴏᴠɪᴇ ʀᴇ𝚀ᴜᴇꜱᴛ ɢʀᴏᴜᴩ ◁</a>
-
-
-🦋 ᴍʏ ʙᴇsᴛ ғʀɪᴇɴᴅ :<a href=tg://settings>ᴛʜɪs ᴘᴇʀsᴏɴ 🙌</a></b>"""
-
+   
     RESTART_TXT = """
 <b>ʙᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
 
@@ -288,18 +253,10 @@ class script(object):
     OWNER_INFO = """
 <b> ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ 
 
-‣ ꜰᴜʟʟ ɴᴀᴍᴇ : ʜᴀʀɪ ᠰ ᴛɢ​
-‣ ᴜꜱᴇʀɴᴀᴍᴇ : @Hari_OP 
-‣ ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ :<a href=https://t.me/Hari_OP>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
+‣ ꜰᴜʟʟ ɴᴀᴍᴇ : ɢɪʀɪʀᴀᴊ ᴍᴇᴇɴᴀ​
+‣ ᴜꜱᴇʀɴᴀᴍᴇ : @Girirajmeena300 
+‣ ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ :<a href=https://t.me/Girirajmeena300>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
 
-    RENDERING_TXT = """
-⚡️ʟɪᴠᴇ sʏsᴛᴇᴍ sᴛᴀᴛᴜs ⚡️
-
-❂ ʀᴀᴍ ●●●●●●●◌◌◌
-✇ ᴄᴘᴜ ●●●●●●●◌◌◌
-✪ ᴅᴀᴛᴀ ᴛʀᴀꜰɪᴄs ●●●●◌◌◌◌◌◌ 🛰
-
-ᴠ2.7.1 [sᴛᴀʙʟᴇ] """
 
     HS_START_TXT = """<b>ʜᴇʟʟᴏ {}
 
